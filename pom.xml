@@ -54,6 +54,7 @@
 	</dependencies>
  <build>
     <finalName>getting-started-tomcat</finalName>
+	 <plugins>
 	 <plugin>
             <artifactId>maven-war-plugin</artifactId>
             <version>2.6</version>
@@ -61,6 +62,7 @@
                 <warName>ROOT</warName>
             </configuration>
         </plugin>
+	 </plugins>
 	</build>
 <!-- 	    <profiles>
         <profile> -->
